@@ -1,2 +1,107 @@
 # Powe-BI-project
 Sales Perfomamce Dashboard
+Sales Analytics Dashboard 
+
+Project Description
+
+This project is an interactive Sales Analytics Dashboard built to help users easily explore and understand key business performance trends. The dashboard brings together sales data from different sources and presents it in a clear, visual, and easy-to-interpret format. It is designed for anyone who wants a quick overview of how a business is performing across products, regions, customer segments, and time.
+
+
+Project Overview
+This project is an interactive Sales Analytics Dashboard built to help users easily explore and understand key business performance trends. The dashboard brings together sales data from different sources and presents it in a clear, visual, and easy-to-interpret format. It is designed for anyone who wants a quick overview of how a business is performing across products, regions, customer segments, and time.
+
+The purpose of this dashboard is to turn raw sales numbers into meaningful insights.
+Instead of reading long spreadsheets, users can instantly see:
+
+-How much the company sold
+-Where the sales are coming from
+-Which products perform the best
+-How customer groups contribute to revenue
+-How sales change over time
+
+The dashboard is fully interactive, allowing users to filter and explore the data based on their needs.
+
+
+Key Features
+
+1. Total Sales & Total Units Sold
+These cards at the top of the dashboard give a quick snapshot of overall performance. They show:
+-Total revenue generated
+-Total number of items sold
+This helps users understand the overall scale of the business at a glance.
+2. Sales by Country
+A map visual shows where sales are coming from geographically.
+This helps identify:
+- High-performing regions
+-Markets with growth potential
+-Areas where sales are low or steady
+3. Product Category Performance
+A line chart displays how different product categories are performing.
+It clearly shows:
+-Best-selling categories
+-Categories with lower demand
+-Trends in customer preferences
+4. Top-Selling Products
+A bar chart highlights the highest-selling individual products.
+This makes it easy to identify what drives most of the revenue and which products may need more attention.
+5. Sales Trends Over Time
+A monthly line chart shows how sales change across 2024 and 2025.
+This helps users spot:
+-Seasonal patterns
+-Growth or decline over time
+-Months with the highest or lowest sales
+6. Customer Segment Analysis
+A pie chart and bar chart show how different customer segments contribute to overall sales.
+This helps answer important questions such as:
+-Which customer groups buy the most?
+-Are certain segments becoming more valuable over time?
+7. Sales by Gender
+A simple donut chart shows sales amounts by gender groups.
+This gives insight into buying behavior and demographics.
+
+
+Success Metrics
+This dashboard helps users:
+
+* Understand the business’s overall performance
+* Identify top products and key customer segments
+* Compare sales across different regions
+* Follow sales trends over time
+* Make informed decisions based on clear visuals
+
+It simplifies analysis for people who may not have a technical background and provides a clean, easy experience for exploring the data.
+
+
+What I Learned from This Project
+
+Working on this dashboard allowed me to strengthen skills such as:
+
+* Data cleaning and organization
+* Designing intuitive visual layouts
+* Building interactive visuals
+* Telling business stories through data
+* Creating dashboards that are both clear and professional
+
+It also helped me understand how businesses use dashboards to monitor performance and make strategic decisions.
+Data Structure
+ 
+•	Calendar: calendar including the date
+•	Sales: Sales data including Customer ID, date, and Product ID
+•	Customers: demographics including age, customer ID, Customer segment, gender, name, region
+•	Products: product details, including category, price, product ID, product name
+•	Regions: region data including country, region, region ID
+Tools Used and Data analysis Process
+* Excel – for initial data preparation
+* Power BI (Desktop) – to build the interactive dashboard
+* DAX Measures – for calculating totals, averages, YoY Sales %, and others comparisons.
+* Power BI Filters & Slicers – to create flexible exploration options.
+* Insight Extraction to inform business decisions.
+Overall Summary
+ 
+This Sales Analytics Dashboard provides a clear, interactive view of the company’s sales performance across products, customer segments, regions, and time. The dashboard summarizes a total sales amount of 546.6K and a total of 2,489 units sold, offering a strong snapshot of the overall business activity.
+Sales are spread across key regions such as the USA, Canada, and Mexico, with the United States contributing the largest portion of revenue. Product performance varies by category: Electronics and Accessories show the highest number of units sold, while Furniture has the lowest category demand, with only 165 units sold.
+The dashboard also highlights clear monthly trends. In both 2024 and 2025, sales show noticeable fluctuations throughout the year, with peaks during mid-year months and dips toward the end of the year. This helps identify seasonal patterns and potential promotion opportunities.
+Product-level insights show that Product_8 is the top-selling item with 199 units sold, followed closely by Product_19 and Product_5. This helps identify high-performing items and stock priorities.
+Customer analysis shows that the Retail segment generates the highest total sales, contributing over 36% of revenue, followed by Online and Wholesale customers. Gender-based insights also reveal that Female customers contribute 58.87% of total sales (322.33K), while Male customers contribute 41.13% (224.28K), highlighting a strong female customer base.
+Taken together, these insights provide a well-rounded view of business performance — from product strengths and customer behavior to regional contributions and time-based sales trends. This dashboard helps businesses make clearer decisions by showing what is working, what needs attention, and where the biggest opportunities for growth exist.
+
